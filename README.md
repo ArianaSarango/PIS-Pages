@@ -1,8 +1,10 @@
 # PIS-Pages
+
+BRAZO ROBÓTICO
+
 Integrantes: Gabriel Cevallos, Francisco Jaramillo, Jimmy Ontaneda, Ariana Sarango, Nathaly Camacho.                                                  
 
-Ciclo: Segundo "A"                                                                                                                                 
-                                                                                                                                                          
-Ducumentación del Poyecto Integrador de Saberes
+Ciclo: Segundo "A"                                                                                                                                                                                                                                       
+DOCUMENTACIÓN DEL PROYECTO INTEGRADOR DE SABERES 
 
-En la documentación presentamos todo lo que ofrece nuestro proyecto icluyendo las materias que hemos impletado en este trabajo
+En esta documentación presentamos todo lo que ofrece nuestro proyecto icluyendo los requerimientos de cada materia.
