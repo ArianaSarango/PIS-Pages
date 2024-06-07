@@ -105,10 +105,16 @@ p, li {
 }
 
 .documentation-content p strong {
-    color: #007bff;
+    color: #781c97;
 }
 
 .documentation-content p:first-child {
     font-size: 1.1em;
     color: #000000;
 }
+
+.strong-purple {
+    color: #781c97;
+}
+
+
