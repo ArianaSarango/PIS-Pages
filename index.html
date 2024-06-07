@@ -24,6 +24,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#contactoModal">Contacto</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#acerca-de-nosotros">Acerca de Nosotros</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -57,7 +60,21 @@
                     <p>..</p>
                 </div>
             </div>
-            
+            <div class="carousel-item">
+                <div class="carousel-img img-3 mx-auto"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>3</h5>
+                    <p>..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img img-4 mx-auto"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>4</h5>
+                    <p>..</p>
+                </div>
+            </div>
+        </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
@@ -102,100 +119,116 @@
                             informáticas, con la finalidad de integrarlo al proyecto “Tele-Robot”, aplicándolas
                             eficientemente, en el desarrollo de la página web o aplicación de control del proyecto,
                             siempre dentro del panorama de la transmisión de datos inalámbrica, vía Bluetooth o WiFi.</p>
-                        <p class="card-text">2. Definir y conocer las características técnicas de los componentes
-                            adicionales que integrarán al circuito electrónico del brazo robótico, siendo éstos:
-                            la tarjeta
-                            <p class="card-text">2. Definir y conocer las características técnicas de los componentes
-                                adicionales que integrarán al circuito electrónico del brazo robótico, siendo éstos:
-                                la tarjeta de desarrollo ESP32-CAM y el sensor de peso HX711, que cumplirán las funciones
-                                de transmisión de video en tiempo real y el cálculo del peso de cada uno de los objetos
-                                levantados por el brazo robótico, respectivamente. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="card-img img-7 mx-auto"><img src="img/Materiales.jpeg" height="220" width="348"/></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Materiales</h5>
-                            <p class="card-text">- Arduino UNO R3</p>
-                            <p class="card-text">- Servomotores</p>
-                            <p class="card-text">- Protoboard</p>
-                            <p class="card-text">- Cables</p>
-                            <p class="card-text">- Motor Paso a Paso</p>
-                            <p class="card-text">- Placa Microcontroladora del Motor Paso a Paso - ULN2003A</p>
-                            <p class="card-text">- Tornillería </p>
-                            <p class="card-text">- Encoder Ky-040</p>
-                            <p class="card-text">- Resistencias 220 Ohmios</p>
-                            <p class="card-text">- Pulsadores de 4 patas (Pequeños)</p>
-                            <p class="card-text">- Fuente de Poder</p>
-                            <p class="card-text">- Multímetro Digital</p>
-                            <p class="card-text">- Sensor de peso HX711</p>
-                            <p class="card-text">- ESP32-CAM</p>
-                            <p class="card-text">- Madera MDF y corte MDF</p>
-                        </div>
-                    </div>
+                        <p
+                        class="card-text">2. Definir y conocer las características técnicas de los componentes
+                        adicionales que integrarán al circuito electrónico del brazo robótico, siendo éstos:
+                        la tarjeta de desarrollo ESP32-CAM y el sensor de peso HX711, que cumplirán las funciones
+                        de transmisión de video en tiempo real y el cálculo del peso de cada uno de los objetos
+                        levantados por el brazo robótico, respectivamente.</p>
                 </div>
             </div>
-    
-            <!-- Modal de Documentación -->
-            <div class="modal fade" id="documentacionModal" tabindex="-1" role="dialog" aria-labelledby="documentacionModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="documentacionModalLabel">Documentación</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Aquí puedes colocar la información detallada sobre la documentación de tu proyecto.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        </div>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-img img-7 mx-auto"><img src="img/Materiales.jpeg" height="220" width="348"/></div>
+                <div class="card-body">
+                    <h5 class="card-title">Materiales</h5>
+                    <p class="card-text">- Arduino UNO R3</p>
+                    <p class="card-text">- Servomotores</p>
+                    <p class="card-text">- Protoboard</p>
+                    <p class="card-text">- Cables</p>
+                    <p class="card-text">- Motor Paso a Paso</p>
+                    <p class="card-text">- Placa Microcontroladora del Motor Paso a Paso - ULN2003A</p>
+                    <p class="card-text">- Tornillería </p>
+                    <p class="card-text">- Encoder Ky-040</p>
+                    <p class="card-text">- Resistencias 220 Ohmios</p>
+                    <p class="card-text">- Pulsadores de 4 patas (Pequeños)</p>
+                    <p class="card-text">- Fuente de Poder</p>
+                    <p class="card-text">- Multímetro Digital</p>
+                    <p class="card-text">- Sensor de peso HX711</p>
+                    <p class="card-text">- ESP32-CAM</p>
+                    <p class="card-text">- Madera MDF y corte MDF</p>
                 </div>
             </div>
-    
-            <!-- Modal de Contacto -->
-            <div class="modal fade" id="contactoModal" tabindex="-1" role="dialog" aria-labelledby="contactoModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="contactoModalLabel">Contacto</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Para más información, escríbenos a nuestros correos:</p>
-                            <ul>
-                                <li><a href="mailto:francisco.jaramillo@unl.edu.ec">francisco.jaramillo@unl.edu.ec</a></li>
-                                <li><a href="mailto:jimmy.ontaneda@unl.edu.ec">jimmy.ontaneda@unl.edu.ec</a></li>
-                                <li><a href="mailto:gabriel.cevallos@unl.edu.ec">gabriel.cevallos@unl.edu.ec</a></li>
-                                <li><a href="mailto:ariana.s.sarango@unl.edu.ec">ariana.s.sarango@unl.edu.ec</a></li>
-                                <li><a href="mailto:nathaly.n.camacho@unl.edu.ec">nathaly.n.camacho@unl.edu.ec</a></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        </div>
-                    </div>
+        </div>
+    </div>
+
+    <!-- Modal de Documentación -->
+    <div class="modal fade" id="documentacionModal" tabindex="-1" role="dialog" aria-labelledby="documentacionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="documentacionModalLabel">Documentación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Aquí puedes colocar la información detallada sobre la documentación de tu proyecto.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
-        </main>
-    
-        <footer class="footer bg-light py-3">
-            <div class="container text-center">
-                <span class="text-muted">© 2023 Proyecto Integrador de Saberes</span>
+        </div>
+    </div>
+
+    <!-- Modal de Contacto -->
+    <div class="modal fade" id="contactoModal" tabindex="-1" role="dialog" aria-labelledby="contactoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactoModalLabel">Contacto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Para más información, escríbenos a nuestros correos:</p>
+                    <ul>
+                        <li><a href="mailto:francisco.jaramillo@unl.edu.ec">francisco.jaramillo@unl.edu.ec</a></li>
+                        <li><a href="mailto:jimmy.ontaneda@unl.edu.ec">jimmy.ontaneda@unl.edu.ec</a></li>
+                        <li><a href="mailto:gabriel.cevallos@unl.edu.ec">gabriel.cevallos@unl.edu.ec</a></li>
+                        <li><a href="mailto:ariana.s.sarango@unl.edu.ec">ariana.s.sarango@unl.edu.ec</a></li>
+                        <li><a href="mailto:nathaly.n.camacho@unl.edu.ec">nathaly.n.camacho@unl.edu.ec</a></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-        </footer>
-    
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
-    </html>
+        </div>
+    </div>
+
+    <!-- Acerca de Nosotros -->
+    <section id="acerca-de-nosotros" class="mt-5">
+        <div class="container">
+            <h2 class="text-center">Acerca de Nosotros</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Nuestro Equipo</h3>
+                    <p>Descripción de tu equipo.</p>
+                    <p>Puedes agregar más detalles sobre tu equipo aquí.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Nuestra Foto</h3>
+                    <img src="ruta/a/la/foto.jpg" alt="Foto del equipo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer bg-light py-3">
+    <div class="container text-center">
+        <span class="text-muted">© 2023 Proyecto Integrador de Saberes</span>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
     
