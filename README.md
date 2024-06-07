@@ -1,12 +1,12 @@
 # PIS-Pages
 
-BRAZO ROBÓTICO
+## BRAZO ROBÓTICO
 
-Integrantes: Gabriel Cevallos, Francisco Jaramillo, Jimmy Ontaneda, Ariana Sarango, Nathaly Camacho.                                                  
+**Integrantes:** Gabriel Cevallos, Francisco Jaramillo, Jimmy Ontaneda, Ariana Sarango, Nathaly Camacho.                                                  
 
-Ciclo: Segundo "A"                                                                                                                                                                                                                                       
-DOCUMENTACIÓN DEL PROYECTO INTEGRADOR DE SABERES 
+**Ciclo:** Segundo "A"                                                                                                                                                                                                                                       
+## DOCUMENTACIÓN DEL PROYECTO INTEGRADOR DE SABERES 
 
 
-![imagen](https://github.com/ArianaSarango/PIS-Pages/assets/166524335/5e20646b-cd17-4d89-8e0b-176219f0f5d7)
+<img width="1438" alt="Captura de pantalla 2024-06-07 a la(s) 9 56 21 a  m" src="https://github.com/ArianaSarango/PIS-Pages/assets/166524037/0ef1d71c-b3e5-4113-99ad-1612677012aa">
 
